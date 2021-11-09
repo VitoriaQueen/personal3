@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+header {
+    text-align: center;   
+}
+
+header > img {
+
+    width: 100%;
+    height: 550px;
+    margin: 0%;
+}
+ 
+html {
+    background-color: rgb(27, 26, 26);
+    background-image: url(images/background-brown.jpeg);
+    
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+    color: black;
+    background-color: ivory;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1, h2 {
+    text-shadow: 4px 6px 5px gray;
+    
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+/*nav {
+    background-color: rgb(27, 26, 26);
+    padding: 15px;
+    text-align: center;
+}*/
+
+nav > ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: block;
+    width: 20%;
+    float: left;
+
+}
+
+ nav > ul > li > a {
+    display: block; 
+    background-color: rgb(27, 26, 26);
+    line-height: 2.8em;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(240, 128, 128);
+    font-weight: bold;
+}
+ 
+nav > ul > li a:hover{
+    background-color: rosybrown;
+    text-decoration: underline;
+    color: rgb(44, 124, 170);
+}
+
+main {
+    padding: 20px;
+    margin-top: 35px;
+}
+
+main > img {
+    width: 30%;
+    padding: 25px;
+    float: right;
+}
+
+main > ul > li:before {
+    content: '✓';
+    color: green;
+    font-weight: bold;
+    
+  }
+
+main > ul > li {
+    list-style: none;
+}  
+body > footer {
+    background-color: rgb(27, 26, 26);
+    color: rgb(240, 128, 128, 0.9);
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+ 
